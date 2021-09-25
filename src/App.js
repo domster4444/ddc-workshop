@@ -4,7 +4,7 @@ import Button from './Button';
 const App = () => {
   return (
     <React.Fragment>
-      <Button />
+      <Button title="explore" />
     </React.Fragment>
   );
 };
