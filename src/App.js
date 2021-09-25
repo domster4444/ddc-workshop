@@ -1,7 +1,12 @@
 import React from 'react';
+import Button from './Button';
 
 const App = () => {
-  return <div>this is a functional component</div>;
+  return (
+    <React.Fragment>
+      <Button />
+    </React.Fragment>
+  );
 };
 
 export default App;
