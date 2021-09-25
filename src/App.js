@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div>
-      <h1>hello from app.js</h1>
-    </div>
-  );
+import React, { Component } from 'react';
+
+export class App extends Component {
+  render() {
+    return <div>this is a class component</div>;
+  }
 }
 
 export default App;
