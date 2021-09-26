@@ -1,0 +1,112 @@
+:root {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #0c112c;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+header nav ul {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 1rem 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  border-radius: 2rem;
+  font-size: 1.7rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+}
+
+header nav ul li a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+#hero-section h1 {
+  text-align: center;
+  font-size: 10rem;
+}
+
+#hero-section .btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+#hero-section .btn-container button {
+  padding: 1rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  outline: none;
+  border: 2px solid #ccc;
+  margin: 2rem;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+}
+
+#hero-section .btn-container button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+#card-section {
+  padding: 20rem 0rem;
+  color: white;
+  background-color: #c2bce4;
+}
+
+#card-section .card-division {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#card-section .card {
+  color: black;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px 0px gray;
+  min-width: 20rem;
+  width: 35rem;
+  padding: 1rem;
+}
+
+#card-section .card h1 {
+  font-size: 3.7rem;
+}
+
+#card-section .card p {
+  font-size: 1.7rem;
+}
+
+footer {
+  background-color: #202049;
+  color: white;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  list-style: none;
+  margin: 2rem;
+  font-size: 2rem;
+}
