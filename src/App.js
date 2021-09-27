@@ -1,14 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
-
+import btnStyle from './Button.module.css';
 const App = () => {
-  const BtnStyle = styled.button`
-    background: blue;
-    color: white;
-  `;
   return (
     <React.Fragment>
-      <BtnStyle>click me</BtnStyle>
+      <button className={btnStyle.error}>click me</button>
     </React.Fragment>
   );
 };
