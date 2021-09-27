@@ -1,12 +1,11 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 const App = () => {
-  const buttonStyle = {
-    background: 'green',
-    color: 'white',
-  };
   return (
     <React.Fragment>
-      <button style={buttonStyle}>click me</button>
+      <Button color="primary" variant="contained">
+        press me
+      </Button>
     </React.Fragment>
   );
 };
