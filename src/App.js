@@ -1,9 +1,14 @@
 import React from 'react';
-import { BiCartAlt } from 'react-icons/bi';
 const App = () => {
+  const alertFunc = () => {
+    alert('triggered');
+  };
   return (
     <div>
-      <BiCartAlt style={{ fontSize: '5rem' }} />
+      <button onClick={alertFunc}>click me</button>
+      <button onMouseOver={alertFunc}>mouseOver me</button>
+      <button onMouseEnter={alertFunc}>mouseEnter me</button>
+      <button onMouseLeave={alertFunc}>mouseLeave me</button>
     </div>
   );
 };
