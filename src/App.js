@@ -1,14 +1,20 @@
-// list in react
-import React from 'react';
-
+import React, { useState } from 'react';
+import Button from './Button';
 const App = () => {
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  const newArr = arr.map((num, index) => {
-    return <li key={index}>{num}</li>;
-  });
+  const [state, setState] = useState(0);
+  const isLoggedIn = false;
   return (
     <div>
-      <ul>{newArr}</ul>
+      <i>
+        <b>{`${state}`}</b>
+      </i>
+
+      <br />
+
+      {isLoggedIn ? <button> log out</button> : <button>log in</button>}
+
+      <u>my btn component</u>
+      <Button></Button>
     </div>
   );
 };
